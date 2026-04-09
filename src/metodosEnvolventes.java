@@ -61,12 +61,7 @@ public class metodosEnvolventes {
         System.out.printf("Es NaN:\t%b\n",Double.isNaN(objD));// veifica si es NaN
         System.out.printf("Es infinito:\t%b\n", Double.isInfinite(objD));
 
-
-
-
-
-
-
+        //
 
     }
 }
