@@ -44,8 +44,6 @@ public class metodosEnvolventes {
         System.out.printf("convertir a minuscula:\t%b\n", Character.toLowerCase(c));
         System.out.printf("tipo:\t%s\n",c.getClass().getName());
 
-
-
         char miC = c.charValue();
         System.out.printf("Obteniedo valor de Character:\t%c\n", miC);
 
@@ -60,7 +58,6 @@ public class metodosEnvolventes {
         System.out.printf("Double:\t%s\n",Double.valueOf(tex3));// strting -> Double
         System.out.printf("Es NaN:\t%b\n",Double.isNaN(objD));// veifica si es NaN
         System.out.printf("Es infinito:\t%b\n", Double.isInfinite(objD));
-
         //
 
     }
