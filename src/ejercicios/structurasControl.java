@@ -1,3 +1,5 @@
+package ejercicios;
+
 import java.util.Scanner;
 public class structurasControl {
     public static void main(String[] args){

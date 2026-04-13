@@ -1,3 +1,5 @@
+package ejercicios;
+
 public class metodosEnvolventes {
     public static void main(String[] args){
         //los variables envolventes contienen metodos que ayudan a realizar acciones con los datos primitivos.

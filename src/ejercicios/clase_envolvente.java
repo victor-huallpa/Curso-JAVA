@@ -1,3 +1,5 @@
+package ejercicios;
+
 public class clase_envolvente {
     //CLASES ENVOLVENTES
     /*

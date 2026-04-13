@@ -1,3 +1,5 @@
+package ejercicios;
+
 public class datos_primitivos{
 
     public static void main(String[] args) {
@@ -78,7 +80,7 @@ public class datos_primitivos{
 
         System.out.println("byte nivel: " + nivel);
         System.out.println("short anio: " + anio);
-        System.out.println("int edad: " + edad);
+        System.out.println("int ejercicios.edad: " + edad);
         System.out.println("long poblacion: " + poblacion);
 
         System.out.println("float temperatura: " + temperatura);
