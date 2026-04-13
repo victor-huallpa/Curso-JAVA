@@ -4,16 +4,17 @@ public class intentostime {
 
     public static void main(String[] args){
         boolean validate = true;
+        int pinU;
+        String pin;
 
         int timeP = 3000;
         int timeB = 5000;
 
-        int pinC = 3456, pinU;
-        String pin;
-
         int contador=0;
         int[] intentos = {5,3,1};
         int iter = 0;
+
+        Login objL = new Login();
 
         String mess1 = "Procesando...";
 
@@ -32,13 +33,13 @@ public class intentostime {
                     break;
                 }
                 //teimpo de blokeo..
-                proccesTime(timeB, mess2);
+                objL.proccesTime(timeB, mess2);
                 iter++;
                 contador = 0;
 
             }
 
-            pin = datos(cs, contador, intentos[iter]);
+            pin = objL.datos(cs, contador, intentos[iter]);
 
 
             if (!pin.matches(" ?\\d+")){
@@ -48,13 +49,13 @@ public class intentostime {
             }
 
             //teimpo de procesado..
-            proccesTime(timeP, mess1);
+            objL.proccesTime(timeP, mess1);
 
             //parseando el string a entero
             pinU = Integer.parseInt(pin.trim());
 
             //validar desblokeo
-            if (validateUser(pinC, pinU)) {
+            if (objL.validateUser(objL.getPin(), pinU)) {
                 contador++;
             } else {
                 break;
@@ -63,36 +64,6 @@ public class intentostime {
         }
     }
 
-    //pedir datos y msotar intentos
-    private static String datos(Scanner cs, int contador, int intentos){
-        System.out.println("-----------------");
-        System.out.printf("Intentos: %d\n",intentos-contador);
-        System.out.println("-----------------");
-        System.out.println("Ingrese su PIN: ");
-
-        return cs.nextLine();
-    }
-
-    //Tiempo para procesar
-    private static void proccesTime(int tiempo, String messages){
-        try {
-            System.out.println(messages);
-            Thread.sleep(tiempo);
-        }catch (InterruptedException e){
-            e.printStackTrace();
-        }
-    }
-
-    //validando Ingreso de usuario
-    private static boolean validateUser(int pin, int pinU){
-        if (pinU == pin){
-            System.out.println("Desbloqueado!...");
-            return false;
-        }else {
-            System.out.println("PIN incorrecto\nVuelva a intentarlo.\n");
-            return true;
-        }
-    }
 
 
 }
