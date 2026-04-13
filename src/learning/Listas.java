@@ -28,6 +28,13 @@ public class Listas {
             System.out.printf("Nombre %s:\n",value);
         }
 
+        //Modificar un elemento de una lista
+        System.out.println("Modificando elementos de un arrayList con set");
+        System.out.println("Elemento 1: \n"+nombres.get(0));
+        nombres.set(0,"Vech");
+        System.out.println("Elemento 1: \n"+nombres.get(0));
+
+
         //Borrar o remover un elemento de un arraylist
         System.out.printf("Numero de elementos del ArrayList: %d\nelemento 2: %s\n", nombres.size(),nombres.get(1));
         nombres.remove(1);
@@ -37,9 +44,8 @@ public class Listas {
         nombres.clear();
         System.out.println("elementos: "+nombres.size());
 
+
+
     }
-
-
-
 
 }
