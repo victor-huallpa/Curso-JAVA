@@ -18,7 +18,7 @@ public class Main {
         //inicializando con elementos
         int[] numbers = {12,43,43,65,13,234,0,44,13};
         int[][] numbersM = {
-                {2,3,5},{5,7,6},{45,34,15},{456,45,23}
+                {2,3,5},{5,7,6},{45,34,15},{456,45,23,90,100}
         };
 
         System.out.println();
