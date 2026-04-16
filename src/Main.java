@@ -1,4 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 
+import ejercicios.FilterList;
 import ejercicios.InvertirArr;
 import ejercicios.EncontrarMayorMenor;
 import ejercicios.ConrParImpar;
@@ -20,9 +23,11 @@ public class Main {
         int[][] numbersM = {
                 {2,3,5},{5,7,6},{45,34,15},{456,45,23,90,100}
         };
+        ArrayList<Integer> numbs = new ArrayList<>(Arrays.asList(5,7,5,3,7,9));
 
         System.out.println();
 
+        FilterList filtr = new FilterList();
         Arreglos arr = new Arreglos();
         Listas lis = new Listas();
         EncontrarMayorMenor res = new EncontrarMayorMenor();
@@ -33,7 +38,8 @@ public class Main {
         DiagonalM diagon = new DiagonalM();
         TransponerM trans = new TransponerM();
 
-        trans.transponerM(numbersM);
+        filtr.filter(numbs, 5);
+//        trans.transponerM(numbersM);
 //        diagon.matrizD(numbersM);
 //        System.out.println("la suma es: "+ sumM.sumaM(numbersM));
 //        dell.dele(numbers);
@@ -55,5 +61,8 @@ public class Main {
         System.out.println("\n\nHello!!");
 
         //configurar el raton con ctl para minimizar o maximizar el codigo en size.
+
+        //
+        
     }
 }
