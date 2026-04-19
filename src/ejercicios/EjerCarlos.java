@@ -10,14 +10,14 @@ public class EjerCarlos {
         for (int i = 0 ; i < n ; i++){
             f*=i;
         }
+//
+//        int[] arr = new int[f];
+//        for (int i = 0 ; i < n ; i++) {
+//            arr[0]+=(i+1)*Math.pow(10,n-1);
+//
+//        }
 
-        int[] arr = new int[f];
-        for (int i = 0 ; i < n ; i++) {
-            arr[0]+=(i+1)*Math.pow(10,n-1);
 
-        }
-
-
-        }
+//        }
     }
 }

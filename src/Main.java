@@ -58,7 +58,7 @@ public class Main {
 
 //        int num = 7;
 //        System.out.println(num/2);
-        System.out.println("\n\nHello!!");
+        System.out.println("\n\nHello!!\n Pensado que ahcer apra ma:ana");
 
         //configurar el raton con ctl para minimizar o maximizar el codigo en size.
 
