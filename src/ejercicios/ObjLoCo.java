@@ -11,7 +11,8 @@ public class ObjLoCo {
         int contador = 0;
         while(true){
             //inicio
-
+//?que pensar
+            System.out.println("He;;p");
         }
 
     }
