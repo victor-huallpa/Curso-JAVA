@@ -13,6 +13,12 @@ public class ObjLoCo {
             //inicio
 //?que pensar
             System.out.println("He;;p");
+            System.out.println("He;;p");
+            System.out.println("He;;p");
+            System.out.println("He;;p");
+            System.out.println("He;;p");
+            System.out.println("He;;p");
+            System.out.println("He;;p");
         }
 
     }
