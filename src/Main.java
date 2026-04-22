@@ -61,7 +61,8 @@ public class Main {
         System.out.println("\n\nHello!!\n Pensado que ahcer apra ma:ana");
 
         //configurar el raton con ctl para minimizar o maximizar el codigo en size.
-
+//pensando que hacer con java
+        System.out.println("donde esta las cosas redys");
         //
         
     }

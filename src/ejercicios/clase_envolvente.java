@@ -6,8 +6,6 @@ public class clase_envolvente {
     Las clases envolventes lo que hacen es convertir un tipo de dato a objeto, esto se realiza de dos formas
     autoboxing y unboxing
      */
-
-
     public static  void main(String[] args){
         //AUTOBOXING
         int nume = 10;
