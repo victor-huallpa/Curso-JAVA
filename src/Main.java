@@ -38,7 +38,7 @@ public class Main {
         DiagonalM diagon = new DiagonalM();
         TransponerM trans = new TransponerM();
 
-        filtr.filter(numbs, 5);
+//        filtr.filter(numbs, 5);
 //        trans.transponerM(numbersM);
 //        diagon.matrizD(numbersM);
 //        System.out.println("la suma es: "+ sumM.sumaM(numbersM));
@@ -64,6 +64,10 @@ public class Main {
 //pensando que hacer con java
         System.out.println("donde esta las cosas redys");
         //
+
+        for (int i = 0; i < 6; i++) {
+            System.out.println(i);
+        }
         
     }
 }
