@@ -3,7 +3,7 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
 //        JFrame objFP = new JFrame("Mi primera ventana");
-        JFrame objFP = new JFrame("Calsuladora Suma");
+        JFrame objFP = new JFrame("Calculadora Suma");
 
         objFP.setContentPane(new frmSum().jpSuma);
 
